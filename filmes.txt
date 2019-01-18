@@ -16,8 +16,12 @@ git log = verifica o histórico das alterações exibe os commits realizados
 
 git remote add origin https://github.com/NomeConta/Projeto.git = faz um clone do repositório GIT
 
-git push origin master = envia as alterações locais para o repositório
+git push origin master = envia as alterações locais para o repositório (origin <branch> insere na branch desejada)
 
 git push = envia as alterações locais para o repositório
+
+git pull origin master = pega todas as informações que estão localmente
+
+git push -f origin <branch> = envia as alterações sobrescrevendo o que está na branch pelo o que está localmente
 
 
