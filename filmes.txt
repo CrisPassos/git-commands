@@ -14,4 +14,10 @@ git commit -m 'Initial Commit' = comita o arquivo para o stage (-m insere o come
 
 git log = verifica o histórico das alterações exibe os commits realizados
 
+git remote add origin https://github.com/NomeConta/Projeto.git = faz um clone do repositório GIT
+
+git push origin master = envia as alterações locais para o repositório
+
+git push = envia as alterações locais para o repositório
+
 
