@@ -1,2 +1,14 @@
-"Não há certezas, apenas oportunidade."(V de Vingança)
-"Diga 'olá' para meu pequeno amigo!" (Scarface)
+git config --global user.name “Nome do Usuario“ - cria um usuário global
+
+git config --global user.email "cristiana.pazos@gmail.com" - configura um e-mail global
+
+git init - transforma o diretório atual em um repositório do GIT (é criado um arquivo .git)
+
+git status - exibe os arquivos que estão no stage (antes do commit)
+
+git add nomeArquivo.txt - adiciona um arquivo na área de stage 
+
+git add . - adiciona todos os arquivos novos na área de stage
+
+git commit -m 'Initial Commit'
+
