@@ -74,3 +74,5 @@ git remote add servidor file://nome-do-caminho.git = mostra ao git qual o caminh
 
 git clone file://nome-do-caminho.git = faz um clone do projeto que está no servidor local da máquina
 
+git pull servidor master = sincroniza com o repositorio local do servidor
+
