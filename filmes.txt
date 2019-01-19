@@ -29,4 +29,18 @@ git push -f origin <branch> = envia as alterações sobrescrevendo o que está n
 ## Fazer em outro Note
 git clone https://github.com/NomeConta/Projeto.git = clona o código que está no repositório
 
+git log -n 2 = mostra o log dos dois últimos commits
 
+git log --oneline = exibe todos os commits por comentários
+
+git log --stat = exibe qual arquivo foi alterado
+
+
+#Verificando mudanças nos arquivo
+git diff = exibe o conteúdo que está diferente mas ainda não foi para a master
+
+git diff <numero-commit> = exibe o conteúdo que foi modificado e já está no stage
+
+git diff <commit-inicio> .. <commit-final> = exibe o que foi modificado entre um range de commits
+
+git diff <numero-commit>2 = exibe as mudan;as nos arquivos do commit em relação aos dois commits anteriores
