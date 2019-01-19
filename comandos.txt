@@ -66,4 +66,11 @@ git reset --hard = descarta todas as mudanças nos arquivos ao invorcarmos esse 
 git revert --no-edit <ultimo-commit> = defaz as alterações no repositório
 
 
+#repositório remoto
+git init --bare <nome-repositorio.git> = criação de um repositorio local. --bare serve para que o GIT nao crie um working tree
+impedindo que commits sejam efetuados diretamente no servidor
+
+git remote add servidor file://nome-do-caminho.git = mostra ao git qual o caminho do repositorio remoto está.
+
+git clone file://nome-do-caminho.git = faz um clone do projeto que está no servidor local da máquina
 
