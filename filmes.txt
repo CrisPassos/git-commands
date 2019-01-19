@@ -12,9 +12,11 @@ git add . = adiciona todos os arquivos novos na área de stage
 
 git commit -m 'Initial Commit' = comita o arquivo para o stage (-m insere o comentário)
 
+git commit -am 'Initial Commit' = comita o arquivo para o stage (-m insere o comentário -a adciona no stage o que foi alterado, porém se for algo novo é necessário colocar o comando de add)
+
 git log = verifica o histórico das alterações exibe os commits realizados
 
-git remote add origin https://github.com/NomeConta/Projeto.git = faz um clone do repositório GIT
+git remote add origin https://github.com/NomeConta/Projeto.git = connecta os meus arquivos localmente ao  que criei no repositório GIT
 
 git push origin master = envia as alterações locais para o repositório (origin <branch> insere na branch desejada)
 
@@ -23,5 +25,8 @@ git push = envia as alterações locais para o repositório
 git pull origin master = pega todas as informações que estão localmente
 
 git push -f origin <branch> = envia as alterações sobrescrevendo o que está na branch pelo o que está localmente
+
+## Fazer em outro Note
+git clone https://github.com/NomeConta/Projeto.git = clona o código que está no repositório
 
 
