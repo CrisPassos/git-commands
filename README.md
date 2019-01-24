@@ -2,9 +2,10 @@
 Esse repositório visa listar os comandos e utilizações do GIT
 
 # Configurando o Usuário do GIT
-<b>git config --global user.name <nome do usuario> = cria um usuário global
 
-git config --global user.email "cristiana.pazos@gmail.com" = configura um e-mail global
+<b>git config --global user.name nome do usuario </b> = cria um usuário global
+
+git config --global user.email "testes@email" = configura um e-mail global
 
 git init = transforma o diretório atual em um repositório do GIT (é criado um arquivo .git)
 
