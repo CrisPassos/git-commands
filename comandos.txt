@@ -46,7 +46,7 @@ git diff <commit-inicio> .. <commit-final> = exibe o que foi modificado entre um
 git diff <numero-commit>2 = exibe as mudan;as nos arquivos do commit em relação aos dois commits anteriores
 
 ##Remove Arquivo
-git remove <nome-arquivo> = remove o arquivo
+git rm <nome-arquivo> = remove o arquivo
 
 ##Renomeando e movendo arquivos
 git mv filmes.txt comandos.txt = renomeia o nome do arquivo
