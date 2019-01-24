@@ -1,37 +1,44 @@
 # git-commands
-Esse repositório visa listar os comandos e utilizações do GIT
+Esse repositório visa listar os comandos e utilizações do GIT.
 
-# Configurando o Usuário do GIT
+# Configurando o GIT
 
-<b>git config --global user.name nome do usuario </b> = cria um usuário global
+<b>git config --global user.name 'nome do usuario' </b> = cria um usuário global.
 
-git config --global user.email "testes@email" = configura um e-mail global
+<b>git config --global user.email 'testes@email' </b> = configura um e-mail global.
 
-git init = transforma o diretório atual em um repositório do GIT (é criado um arquivo .git)
+<b>git init </b> = transforma o diretório atual em um repositório do GIT (cria-se um arquivo .git).
 
-git status = exibe os arquivos que estão no stage (antes do commit)
+# Comandos mais utilizados
 
-git add nomeArquivo.txt = adiciona um arquivo na área de stage 
+<b> git status </b> = exibe os arquivos que estão no stage (antes do commit).
 
-git add . = adiciona todos os arquivos novos na área de stage
+<b> git add nomeArquivo.txt </b> = adiciona um arquivo na área de stage. 
 
-git commit -m 'Initial Commit' = comita o arquivo para o stage (-m insere o comentário)
+<b> git add . </b> = adiciona todos os novos arquivos na área de stage.
 
-git commit -am 'Initial Commit' = comita o arquivo para o stage (-m insere o comentário -a adciona no stage o que foi alterado, porém se for algo novo é necessário colocar o comando de add)
+<b> git commit -m 'Initial Commit' </b> = faz o commit das alterações e envia os arquivos para a área do stage (-m insere o comentário).
 
-git log = verifica o histórico das alterações exibe os commits realizados
+<b> git commit -am 'Initial Commit' </b> = faz o commit das alterações e envia o arquivo para o stage (-m insere o comentário -a adiciona no stage o que foi alterado, sem a necessidade de usar o comando 'git add' porém se for algo novo é necessário colocar o comando de add).
 
-git remote add origin https://github.com/NomeConta/Projeto.git = connecta os meus arquivos localmente ao  que criei no repositório GIT
+<b> git log </b> = verifica o histórico das alterações e exibe os commits que foram realizados.
 
-git push origin master = envia as alterações locais para o repositório (origin <branch> insere na branch desejada)
+<b> git push origin 'branch' </b> = envia as alterações locais para o repositório (origin 'branch' insere o commit na branch desejada).
 
-git push = envia as alterações locais para o repositório
+<b> git push </b> = envia as alterações locais para o repositório remoto.
 
-git pull origin master = pega todas as informações que estão localmente
+<b> git push -f origin 'branch' </b> = envia as alterações sobrescrevendo o que está na branch pelo o que está localmente.
 
-git push -f origin <branch> = envia as alterações sobrescrevendo o que está na branch pelo o que está localmente
+<b> git pull origin 'branch' </b> = pega todas as informações que foram commitadas no repositório (origin 'branch' insere o commit na branch desejada).
+
+
+
+
+
 
 ## Fazer em outro Note
+git remote add origin https://github.com/NomeConta/Projeto.git = connecta os meus arquivos localmente ao  que criei no repositório GIT
+
 git clone https://github.com/NomeConta/Projeto.git = clona o código que está no repositório
 
 git log -n 2 = mostra o log dos dois últimos commits
