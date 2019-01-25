@@ -108,6 +108,23 @@ conteúdo anterior do arquivo. Podemos utilizar o comando git checkout para recu
 
 <b>git fetch origin</b> = obtém os commits da branch remota. Trazemos os commits de uma branch remota que ainda não estavam presentes localmente.
 
+## TAGS
+Tags são fotos de determinados instante de um repositório.
+
+<b>git tav v1.0</b> = cria uma tag.
+
+<b>git tag </b> = mostra todas as tags.
+
+<b>git tag 'nome da tag' 'número do commit'</b> = cria uma tag de um commit específico.
+
+<b>git tag - 'nome da tag'</b> = deleta uma tag.
+
+<b>git tag -a 'nome da tag' -m 'Comentários'</b> = criamos uma tag anotada e com informações de autor.
+
+<b></b>
+
+<b></b>
+
 <b></b>
 
 <b></b>
