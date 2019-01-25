@@ -75,4 +75,4 @@ conteúdo anterior do arquivo. Podemos utilizar o comando git checkout para recu
 <b> git reset --hard </b> = descarta todas as mudanças nos arquivos ao invorcarmos esse comando. (--hard retira todas as alterações fica como se estivesse no último commit).
 
 ## Desfazendo mudanças já comitadas
-<b> git revert --no-edit 'ultimo-commit' </b> = defaz as alterações no repositório;
+<b> git revert --no-edit 'ultimo-commit' </b> = defaz as alterações no repositório.
