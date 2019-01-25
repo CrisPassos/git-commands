@@ -101,4 +101,4 @@ conteúdo anterior do arquivo. Podemos utilizar o comando git checkout para recu
 <b></b>
 
 
-## Refências
+## Referências
