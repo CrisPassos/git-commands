@@ -121,7 +121,7 @@ Tags são fotos de determinados instante de um repositório.
 
 <b>git tag -a 'nome da tag' -m 'Comentários'</b> = criamos uma tag anotada e com informações de autor.
 
-<b></b>
+<b>git push origin 'nome da tag'</b> = disponibiliza a tag remotamente.
 
 <b></b>
 
