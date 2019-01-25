@@ -1,7 +1,7 @@
 # git-commands
 Esse repositório visa listar os comandos e utilizações do GIT.
 
-# Configurando o GIT
+## Configurando o GIT
 
 <b>git config --global user.name 'nome do usuario' </b> = cria um usuário global.
 
@@ -60,24 +60,19 @@ Esse repositório visa listar os comandos e utilizações do GIT.
 <b> git diff 'numero-commit'2 </b> = exibe as mudanças nos arquivos do commit em relação aos dois commits anteriores.
 
 ## Remove Arquivo
-git rm <nome-arquivo> = remove o arquivo
+<b> git rm 'nome-arquivo' </b> = remove o arquivo.
 
 ## Renomeando e movendo arquivos
-git mv filmes.txt comandos.txt = renomeia o nome do arquivo
-git mv principal.js js/principal.js = move o arquivo para uma pasta chamada js(é preciso que a pasta js já tenha sido criada)
+<b> git mv filmes.txt comandos.txt </b> = renomeia o nome do arquivo'.
+<b> git mv principal.js js/principal.js </b> = move o arquivo para uma pasta chamada js(é preciso que a pasta js já tenha sido criada).
 
 ## Desfazendo mudanças
-git checkout --comandos.txt = desfaz as alterações ainda não rastreadas, ou seja, que ainda não estão na área de stage, voltando ao 
-conteúdo anterior do arquivo. Podemos utilizar o comando git checkout para recuperar os arquivos removidos acidentalmente
+<b> git checkout --comandos.txt </b> = desfaz as alterações ainda não rastreadas, ou seja, que ainda não estão na área de stage, voltando ao 
+conteúdo anterior do arquivo. Podemos utilizar o comando git checkout para recuperar os arquivos removidos acidentalmente.
 
-git reset = retira o arquivo da stage mas preserva tudo o que foi modificado nesse arquivo.
+<b> git reset </b> = retira o arquivo da stage mas preserva tudo o que foi modificado nesse arquivo.
 
-git reset --hard = descarta todas as mudanças nos arquivos ao invorcarmos esse comando. 
-
---hard retira todas as alterações fica como se estivesse no último commit
+<b> git reset --hard </b> = descarta todas as mudanças nos arquivos ao invorcarmos esse comando. (--hard retira todas as alterações fica como se estivesse no último commit).
 
 ## Desfazendo mudanças já comitadas
-git revert --no-edit <ultimo-commit> = defaz as alterações no repositório
-
-
-
+<b> git revert --no-edit 'ultimo-commit' </b> = defaz as alterações no repositório;
