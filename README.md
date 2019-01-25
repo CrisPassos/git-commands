@@ -100,9 +100,9 @@ conteúdo anterior do arquivo. Podemos utilizar o comando git checkout para recu
 
 <b>git rebase "nome da branch"</b> = outra maneira de fazer um merge de branches, porém nesse caso o repositório volta ao estado original do primeiro commit e aplica as alterações feitas no último commit da master.
 
-<b></b>
+<b>git branch -r </b> = mostra as branches locais.
 
-<b></b>
+<b>git branch -a </b> = mostra as branches locais como as remotas.
 
 <b></b>
 
