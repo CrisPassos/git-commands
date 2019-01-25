@@ -94,9 +94,9 @@ conteúdo anterior do arquivo. Podemos utilizar o comando git checkout para recu
 
 <b>git branch -D 'nome da branch'</b> = deleta uma branch, caso já tenhamos feito um commit.
 
-<b></b>
+<b>git branch --no-merged</b> = verifica as branches que ainda não foram mescladas a master.
 
-<b></b>
+<b>git merge 'nome da branch' -m 'comentarios'</b> = mescla a branch desejada com a branch que está sendo utilizada no momento.
 
 <b></b>
 
