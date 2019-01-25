@@ -104,9 +104,9 @@ conteúdo anterior do arquivo. Podemos utilizar o comando git checkout para recu
 
 <b>git branch -a </b> = mostra as branches locais como as remotas.
 
-<b></b>
+<b>git branch -r -v</b> = mostra quais commits as branches remotas estão apontando
 
-<b></b>
+<b>git fetch origin</b> = obtém os commits da branch remota. Trazemos os commits de uma branch remota que ainda não estavam presentes localmente.
 
 <b></b>
 
