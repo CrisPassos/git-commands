@@ -9,7 +9,7 @@ Esse repositório visa listar os comandos e utilizações do GIT.
 
 <b>git init </b> = transforma o diretório atual em um repositório do GIT (cria-se um arquivo .git).
 
-# Comandos mais utilizados
+## Comandos mais utilizados
 
 <b> git status </b> = exibe os arquivos que estão no stage (antes do commit).
 
@@ -31,40 +31,42 @@ Esse repositório visa listar os comandos e utilizações do GIT.
 
 <b> git pull origin 'branch' </b> = pega todas as informações que foram commitadas no repositório (origin 'branch' insere o commit na branch desejada).
 
+## Repositório remoto
+<b> git remote add origin https://github.com/NomeConta/Projeto.git </b> = connecta os meus arquivos localmente ao  repositório criado no GITHUB.
 
+<b> git clone https://github.com/NomeConta/Projeto.git </b> = faz um clone do código que está no repositório.
 
+<b> git init --bare 'nome-repositorio.git' </b> = criação de um repositorio local ( --bare serve para que o GIT nao crie um working tree).
 
+<b> git log -n 2 </b> = mostra o log dos dois últimos commits (eu posso alterar o valor 2).
 
+<b> git log --oneline </b> = exibe todos os commits por comentários.
 
-## Fazer em outro Note
-git remote add origin https://github.com/NomeConta/Projeto.git = connecta os meus arquivos localmente ao  que criei no repositório GIT
+<b> git log --stat </b> = exibe qual arquivo foi alterado.
 
-git clone https://github.com/NomeConta/Projeto.git = clona o código que está no repositório
+<b> git remote add servidor file://nome-do-caminho.git </b> = mostra ao git qual o caminho do repositorio remoto está. (Este caso serve para quando outro computador serve de servidor do repositório).
 
-git log -n 2 = mostra o log dos dois últimos commits
+<b> git clone file://nome-do-caminho.git </b> = faz um clone do projeto que está no servidor local da máquina (Este caso serve para quando outro computador serve de servidor do repositório).
 
-git log --oneline = exibe todos os commits por comentários
+<b> git pull servidor master </b>= sincroniza com o repositorio local do servidor.
 
-git log --stat = exibe qual arquivo foi alterado
+## Verificando mudanças nos arquivo
+<b> git diff </b> = exibe o conteúdo que está diferente mas ainda não foi para o stage.
 
+<b> git diff 'numero-commit' </b> = exibe o conteúdo que foi modificado e já está no stage.
 
-#Verificando mudanças nos arquivo
-git diff = exibe o conteúdo que está diferente mas ainda não foi para a master
+<b> git diff 'commit-inicio' .. 'commit-final' </b> = exibe o que foi modificado entre um range de commits.
 
-git diff <numero-commit> = exibe o conteúdo que foi modificado e já está no stage
+<b> git diff 'numero-commit'2 </b> = exibe as mudanças nos arquivos do commit em relação aos dois commits anteriores.
 
-git diff <commit-inicio> .. <commit-final> = exibe o que foi modificado entre um range de commits
-
-git diff <numero-commit>2 = exibe as mudan;as nos arquivos do commit em relação aos dois commits anteriores
-
-#Remove Arquivo
+## Remove Arquivo
 git rm <nome-arquivo> = remove o arquivo
 
-#Renomeando e movendo arquivos
+## Renomeando e movendo arquivos
 git mv filmes.txt comandos.txt = renomeia o nome do arquivo
 git mv principal.js js/principal.js = move o arquivo para uma pasta chamada js(é preciso que a pasta js já tenha sido criada)
 
-#Desfazendo mudanças
+## Desfazendo mudanças
 git checkout --comandos.txt = desfaz as alterações ainda não rastreadas, ou seja, que ainda não estão na área de stage, voltando ao 
 conteúdo anterior do arquivo. Podemos utilizar o comando git checkout para recuperar os arquivos removidos acidentalmente
 
@@ -74,17 +76,8 @@ git reset --hard = descarta todas as mudanças nos arquivos ao invorcarmos esse 
 
 --hard retira todas as alterações fica como se estivesse no último commit
 
-#Desfazendo mudanças já comitadas
+## Desfazendo mudanças já comitadas
 git revert --no-edit <ultimo-commit> = defaz as alterações no repositório
 
 
-#Repositório remoto
-git init --bare <nome-repositorio.git> = criação de um repositorio local. --bare serve para que o GIT nao crie um working tree
-impedindo que commits sejam efetuados diretamente no servidor
-
-git remote add servidor file://nome-do-caminho.git = mostra ao git qual o caminho do repositorio remoto está.
-
-git clone file://nome-do-caminho.git = faz um clone do projeto que está no servidor local da máquina
-
-git pull servidor master = sincroniza com o repositorio local do servidor
 
