@@ -1,1 +1,3 @@
 Arquivo para realizar testes de de comandos
+
+Texto alterado
