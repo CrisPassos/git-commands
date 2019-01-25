@@ -76,3 +76,29 @@ conteúdo anterior do arquivo. Podemos utilizar o comando git checkout para recu
 
 ## Desfazendo mudanças já comitadas
 <b> git revert --no-edit 'ultimo-commit' </b> = defaz as alterações no repositório.
+
+## Trabalhando com Branches
+<b>git branch</b> = lista as branches em nosso repositório. (o * na frente indica que é a branch atual).
+
+<b>git branch -v</b> = lista as branches existentes no nosso repositórios commitados.
+
+<b>git log --oneline --decorate --parents</b> = exibe o histórico resumido do nosso repositório com o commit para o qual a branch está apontando e os commits pai de cada commit (--parents commits pais, --decorate verifica qual é o commit que a branch está apontando).
+
+<b>git branch 'nome da branch'</b> = cria uma nova branch.
+
+<b>git checkout 'nome da branch'</b> = troca de branch.
+
+<b>git checkout -b 'nome da branch'</b> = cria uma nova branch e já troca o apontamento dela.
+
+<b>git branch -d 'nome da branch'</b> = deleta uma branch.
+
+<b>git branch -D 'nome da branch'</b> = deleta uma branch, caso já tenhamos feito um commit.
+
+<b></b>
+
+<b></b>
+
+<b></b>
+
+
+## Refências
