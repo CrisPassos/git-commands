@@ -98,6 +98,18 @@ conteúdo anterior do arquivo. Podemos utilizar o comando git checkout para recu
 
 <b>git merge 'nome da branch' -m 'comentarios'</b> = mescla a branch desejada com a branch que está sendo utilizada no momento.
 
+<b>git rebase "nome da branch"</b> = outra maneira de fazer um merge de branches, porém nesse caso o repositório volta ao estado original do primeiro commit e aplica as alterações feitas no último commit da master.
+
+<b></b>
+
+<b></b>
+
+<b></b>
+
+<b></b>
+
+<b></b>
+
 <b></b>
 
 
